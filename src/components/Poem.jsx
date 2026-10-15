@@ -22,12 +22,12 @@ function PoemLine({ parts }) {
   )
 }
 
-export default function Poem({ markdown, author, year, language = 'en' }) {
+export default function Poem({ markdown, author, year, subtitle, language = 'en', sectionLabel = 'Stanza', eyebrow = 'POEM 001 / RESILIENCE' }) {
   const { title, stanzas } = parsePoem(markdown)
   return (
     <article id="poem" className="poem" aria-labelledby="poem-title">
-      <header className="poem-header"><span className="eyebrow">POEM 001 / RESILIENCE</span><h1 id="poem-title" lang={language}>{title}</h1><p className="byline">{author} <span aria-hidden="true">·</span> {year}</p></header>
-      <div className="stanzas" lang={language}>{stanzas.map((lines, index) => <section className="stanza" aria-label={`Stanza ${index + 1}`} key={index}>{lines.map((parts, line) => <PoemLine key={line} parts={parts} />)}</section>)}</div>
+      <header className="poem-header"><span className="eyebrow">{eyebrow}</span><h1 id="poem-title" lang={language}>{title}</h1><p className="byline">{author}{(subtitle || year) && <> <span aria-hidden="true">·</span> {subtitle || year}</>}</p></header>
+      <div className="stanzas" lang={language}>{stanzas.map((lines, index) => <section className="stanza" aria-label={`${sectionLabel} ${index + 1}`} key={index}>{lines.map((parts, line) => <PoemLine key={line} parts={parts} />)}</section>)}</div>
       <p className="poem-end"><span aria-hidden="true">✳</span> The words are yours to explore.</p>
     </article>
   )
