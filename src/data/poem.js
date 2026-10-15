@@ -1,21 +1,17 @@
+// An original Punjabi sample poem, with English definitions.
 // Blank lines separate stanzas. Annotate words with [word](definition).
-export const poem = `# Invictus
-Out of the night that covers me,
-Black as the [pit](A deep, dark hollow; here, an image of overwhelming darkness) from pole to pole,
-I thank whatever gods may be
-For my [unconquerable](Unable to be defeated or overcome) soul.
+export const poem = `# ਚਾਨਣ
+ਰਾਤ ਦੇ [ਵਿਹੜੇ](Courtyard; an open space beside or within a home) ਚੁੱਪ ਉਤਰੀ,
+ਇੱਕ [ਦੀਵਾ](A small oil lamp) ਹੌਲੀ ਹੌਲੀ ਬਲਦਾ।
+ਹਵਾ ਨੇ ਆ ਕੇ ਬੂਹਾ ਖੜਕਾਇਆ,
+ਦਿਲ ਫਿਰ ਵੀ [ਆਸ](Hope; the belief that something good is possible) ਨੂੰ ਫੜਦਾ।
 
-In the [fell](Fierce, cruel, or deadly) clutch of circumstance
-I have not [winced](Drawn back or flinched in pain or distress) nor cried aloud.
-Under the [bludgeonings](Repeated heavy blows) of chance
-My head is bloody, but unbowed.
+ਮਿੱਟੀ ਅੰਦਰ ਬੀਜ ਸੁੱਤਾ,
+ਮੀਂਹ ਨੇ ਉਸ ਨੂੰ ਆਣ ਜਗਾਇਆ।
+ਨਿੱਕੀ ਜਿਹੀ [ਕਰੂੰਬਲ](A tender new shoot or bud on a plant) ਨੇ ਸਿਰ ਚੁੱਕਿਆ,
+ਸੂਰਜ ਨੇ ਫਿਰ ਗਲ ਨਾਲ ਲਾਇਆ।
 
-Beyond this place of wrath and tears
-[Looms](Appears as a large, threatening presence) but the Horror of the shade,
-And yet the [menace](A threat or danger) of the years
-Finds and shall find me unafraid.
-
-It matters not how [strait](Limited in physical space or extent) the gate,
-How charged with punishments the [scroll](A roll of parchment or paper; here, a record of judgment),
-I am the master of my fate,
-I am the captain of my soul.`
+ਆਓ ਆਪਾਂ ਰਾਹ ਬਣਾਈਏ,
+ਜਿੱਥੇ ਅਜੇ [ਹਨੇਰਾ](Darkness; here, a sense of uncertainty or hardship) ਰਹਿੰਦਾ।
+ਇੱਕ ਦੂਜੇ ਦਾ ਹੱਥ ਫੜੀਏ,
+ਸਾਂਝਾ [ਚਾਨਣ](Light; here, a symbol of hope shared with others) ਵਧਦਾ ਰਹਿੰਦਾ।`
