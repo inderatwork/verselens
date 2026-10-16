@@ -4,8 +4,8 @@
 // Text checked against Shabad OS database SSA2, Angs 1–2 (pause punctuation omitted).
 // https://github.com/ShabadOS/database/tree/918c1d42d02e385e7ed48ef44994c75a2cb50293
 export const poem = `# ਜਪੁਜੀ ਸਾਹਿਬ
-ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ ਲਖ ਵਾਰ ॥
-ਚੁਪੈ ਚੁਪ ਨ ਹੋਵਈ ਜੇ ਲਾਇ ਰਹਾ ਲਿਵ ਤਾਰ ॥
+ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ [ਲਖ](One hundred thousand) [ਵਾਰ](times) ॥
+ਚੁਪੈ ਚੁਪ ਨ ਹੋਵਈ ਜੇ ਲਾਇ ਰਹਾ [ਲਿਵ](Deep absorption and continuous focus) [ਤਾਰ](String, thread, uninterrupted flow) ॥
 ਭੁਖਿਆ ਭੁਖ ਨ ਉਤਰੀ ਜੇ ਬੰਨਾ ਪੁਰੀਆ ਭਾਰ ॥
 ਸਹਸ ਸਿਆਣਪਾ ਲਖ ਹੋਹਿ ਤ ਇਕ ਨ ਚਲੈ ਨਾਲਿ ॥
 ਕਿਵ [ਸਚਿਆਰਾ](One who lives in truth; a truthful person) ਹੋਈਐ ਕਿਵ ਕੂੜੈ ਤੁਟੈ ਪਾਲਿ ॥
